@@ -1,7 +1,9 @@
 # bitbucket2github
 A quick python script I have hacked in few hours to migrate my git repos from bitbucket to github. It uses python wrappers for the BitBucket and GitHub public API to list all repositories, lets the user select which ones to copy and pushes them to github.
 
-This comes with no warranty, use on your own responsibility!
+```diff
+-This comes with no warranty, use on your own responsibility!
+```
 
 ## Dependencies
   * pybitbucket
