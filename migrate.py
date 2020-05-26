@@ -93,7 +93,7 @@ def main():
         else:
             print('-- Cloning {}'.format(repo['link']))
             try:
-                local_repo = git.Repo.clone_from(repo['link'], repo['name'])
+                local_repo = git.Repo.clone_from(repo['link'], destdir)
             except:
                 print('Clone failed')
                 repo['reason'] = 'Clone failed'
